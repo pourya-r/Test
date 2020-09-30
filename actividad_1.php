@@ -55,7 +55,7 @@ include "paises.inc";
             event.preventDefault();
             //Data
             let dataToPost = $(this).serializeArray();
-            console.log(dataToPost);
+            // console.log(dataToPost);
             //sending throw ajax
             $.ajax({
                 url: "almancer.php",
